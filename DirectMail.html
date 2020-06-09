@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>EBrockArt / Direct Mail</title>
+        <link rel="stylesheet" href="CSS/alt.css">
+    </head>
+
+    <body>
+        <div class="header-container">
+            <header> 
+
+                <div class="outer">
+                    <div class="inner"></div>
+                </div>   
+
+                <div class="logo-container">
+                    <a href="Home.html" id="btn-Home" class="show-desktop">
+                        <img src="images/LOGO1.png" alt="EBrockArtLogo" class="logo1">
+                    </a>
+                </div>
+                
+                <nav>
+                    <a href="#" class="hide-desktop">
+                        <img src="images/ham.svg" alt="toggle menu" class="menu" id="menu"> 
+                    </a>
+                    
+                    <div>
+                        <ul class="show-desktop hide-mobile" id="nav">
+                            <li id="exit" class="exit-btn hide-desktop">
+                                <img src="images/exit.svg" alt="exit menu">
+                            </li>
+                            <li>
+                                <div class="subnav">
+                                    <button class="subnavbtn1">Graphic Design<i class="fa fa-caret-down"></i></button>
+                                    <div class="subnav-content hide-mobile">
+                                        <a href="BusinessCard.html">Business Card</a>
+                                        <a href="LogoLogotype.html">Logo/Logotype</a>
+                                        <a href="DirectMail.html">Direct Mail</a>
+                                        <a href="Brochure.html">Brochure</a>
+                                    </div>
+                                </div>
+                            </li> 
+                            <li>
+                                <div class="subnav">
+                                    <button class="subnavbtn2">Illustration<i class="fa fa-caret-down"></i></button>
+                                    <div class="subnav-content hide-mobile">
+                                            <a href="Editorial.html">Editorial</a>
+                                            <a href="Infographic.html">Infographic</a>
+                                            <a href="Portraiture.html">Portraiture</a>
+                                            <a href="Poster.html">Poster</a>
+                                            <a href="ProductPackaging.html">Product/Packaging</a>
+                                            <a href="Tattoo.html">Tattoo</a>
+                                            <a href="Abstract.html">Abstract</a>
+                                    </div>
+                                </div>
+                            </li> 
+                            <li>
+                                <div class="subnav">
+                                    <button class="subnavbtn3">Sculpture<i class="fa fa-caret-down"></i></button>
+                                    <div class="subnav-content hide-mobile">
+                                            <a href="Kinetic.html">Kinetic</a>
+                                            <a href="HortiSculpture.html">Horti-Sculpture</a>
+                                            <a href="Model.html">Model</a>
+                                            <a href="Jewelry.html">Jewelry</a>
+                                            <a href="Furniture.html">Furniture</a>
+                                    </div>
+                                </div>
+                            </li> 
+                            <li>
+                                <div class="subnav">
+                                    <button class="subnavbtn4">Info<i class="fa fa-caret-down"></i></button>
+                                    <div class="subnav-content hide-mobile">
+                                            <a href="About.html">About/Contact</a>
+                                    </div>
+                                </div>
+                            </li> 
+                        </ul>
+                    </div>        
+                </nav>
+
+            </header>
+            
+            <div class="black-container1">
+            </div>
+        
+            <div class="green-container1">
+            </div>
+
+        </div>
+
+        <div class="lightgrey-container1">
+            <div class="container">
+                <h1 class="subhead">DIRECT MAIL</h1>
+            </div>
+        </div>
+
+        <div class="scroll-container">
+            <div class="scroll">
+                <img src="images/scroll.svg" alt="scroll down" class="scroll hide-mobile show-desktop">
+            </div>
+        </div>
+    
+
+        <div class="image-container">
+            <img src="images/14_46and2mailer.jpg" alt="46and2mailer" class="Mailer">
+            <img src="images/15_46and2mailer2.jpg" alt="46and2mailer2" class="Mailer">
+            <img src="images/16_BenoitMailer.jpg" alt="benoitmailer" class="Mailer">
+            <img src="images/17_BenoitMailer2.jpg" alt="benoitmailer2" class="Mailer">
+        </div>
+
+        <div class="green-container4">
+        </div>
+
+        <div class="footer">
+            <footer> 
+
+                <div class="container1">
+                    <a href="/images/FreelanceServicesBreakdown1.pdf" download>
+                        <img src="/images/DownloadButton.png" alt="DownloadButton">
+                    </a>
+                </div>
+
+                <h5>(.PDF) BREAKDOWN OF COMMISSION SERVICES</h5>
+
+        
+                <ul>
+                    <li>
+                        <a href="https://www.instagram.com/ebrockart/" id="btn1">
+                            <img src="images/ICON1.png" alt="Instagram">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:ebrockart@gmail.com" id="btn2">
+                            <img src="images/ICON2.png" alt="Email">
+                        </a>
+                    </li>
+                </ul>
+
+                <h6>© ERIC BROCK 2020</h6>
+
+            </footer>
+        </div>
+
+        <script>
+
+            var menu = document.getElementById('menu');
+            var nav = document.getElementById('nav');
+            var exit = document.getElementById('exit');
+            var slides = document.getElementById('mySlides');
+
+
+
+            menu.addEventListener('click', function(e) {
+                nav.classList.toggle('hide-mobile');
+                e.preventDefault();
+            });
+        
+            exit.addEventListener('click', function(e) {
+                nav.classList.add('hide-mobile');
+                e.preventDefault();
+            });
+        </script>
+        
+    </body>
+</html>
